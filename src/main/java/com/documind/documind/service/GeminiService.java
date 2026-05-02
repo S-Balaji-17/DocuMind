@@ -9,8 +9,8 @@ import java.util.*;
 public class GeminiService {
 
     private final RestTemplate restTemplate = new RestTemplate();
-    private final String API_KEY = "YOUR_API_KEY";
-    private final String GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + API_KEY;
+    private final String API_KEY = "AIzaSyChpy8NK_Y9LewCKJzlPF_Ypu2fYvti8gQ";
+    private final String GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + API_KEY;
 
     public String generateAnswer(String question, List<String> contextChunks) {
         try {
